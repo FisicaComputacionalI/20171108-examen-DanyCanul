@@ -4,8 +4,9 @@
 #include <iostream>
 using namespace std;
 int main (){
- int dis;
- int tim;
+ float dis;
+ float tim;
+ float v;
  
 cout<<"Dame un valor para la distancia: "<<endl;
 cin>>dis;
@@ -13,10 +14,11 @@ cin>>dis;
 cout<<"Dame un valor para el tiempo: "<<endl;
 cin>>tim;
 
+v=dis/tim;
 
-cout<<"El valor de la velocidad es: "<<float(dis)/float(tim)<<endl;
+cout<<"El valor de la velocidad es: "<<v<<endl;
 return 0;
 }
 
-//para este programa tenia la opciòn de declarar una tercera variable y definir mi formula como V=dis/tim 
-//pero solo me arrojaba valores enteros, para que me arrojara valores con decimales decidi utilizar float
+//encontre mi error para lo de float :)
+
