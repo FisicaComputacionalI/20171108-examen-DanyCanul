@@ -1,10 +1,10 @@
 //Examen
 //Autor: Daniela Canul Garcia
 //08 de Noviembre del 2017
-//Es un programa que evalua si es menor que 5, si lo es revisa si es divisible entre 3
 
-//La línea de abajo es correcta, la descripción anterior es confusa porque de entrada le das el valor de 1 a x, así que no hay mucha evaluación.
+//Es un programa que evalua si es menor que 5, si lo es revisa si es divisible entre 3
 //Imprime los numeros primos menores que 5
+//Tu descripción no es correcta. Los números que imprime el programa son : 1 y 5. Los números primos menores a o iguales a 5 son : 1, 3, 5. Por lo tanto tu explicación del programa no corresponde a lo que hace el programa.
 
 #include <iostream>
 using namespace std;
